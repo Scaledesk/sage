@@ -1,0 +1,572 @@
+
+
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-size: 1.6em;
+    line-height: 1.6em;
+
+}
+
+
+.header-strip{
+    background-color: #4b4b4b;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.brand-c{
+    color: #f26531;
+}
+
+
+.title{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Fixed Menu
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#fixed-menu{
+    position: fixed;
+    top: 100px;
+}
+
+#fixed-menu .menu li{
+    list-style-type: none;
+
+}
+
+#fixed-menu .menu li a{
+    text-decoration: none;
+    color: #231f20;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Hero Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#hero-section{
+    height: 100vh;
+    background-color: #f26531;
+}
+
+
+#hero-section::after{
+    content: "";
+    background: url('../img/Untitled-2.svg');
+    width: 100%;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Contact us Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#contact-us-section{
+    background-color: #e0dac4;
+    padding: 5% 0;
+}
+
+.fancy-contact{
+    background-color: #191919;
+    padding: 10px;
+    color: #f26531;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 110px;
+    position: relative;
+}
+
+.fancy-contact:after{
+    content: "";
+    border-color: #191919;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 28px solid #191919;
+    display: block;
+    position: absolute;
+    left: 10px;
+    width: 0;
+    height: 0;
+    transform: skewX(36deg);
+    top: 45px;
+}
+
+
+
+
+
+.address-container{
+    background-color: #191919;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.address-container p:nth-child(3){
+    color: #efa052;
+}
+
+.address-container p:last-child a{
+    color: #fff;
+}
+
+
+
+.txt-over-hr{
+    height: 30px;
+    border-bottom: 2px dotted #fff;
+    width: 54%;
+    margin: 0 auto;
+}
+
+.txt-over-hr span{
+    background-color: #e5e0cf;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    text-transform: uppercase;
+    font-weight: 100;
+
+
+}
+
+
+
+
+.f-input-group{
+    width: 100%!important;
+    margin: 20px auto!important;
+    position: relative!important;
+}
+
+.float-input{
+    border: none!important;
+    border-bottom: 1px solid #999!important;
+    font-size: 16px!important;
+    width: 100%!important;
+    padding: 10px!important;
+    background-color: transparent;
+}
+
+
+.float-input:focus{
+    outline: none!important;
+}
+
+
+.float-label{
+    color: #565a5c!important;
+    position: absolute!important;
+    left: 0!important;
+    top: 0!important;
+    opacity: 0!important;
+    visibility: hidden!important;
+    transition: all .5s!important;
+
+
+}
+
+
+.label-top{
+    visibility: visible!important;
+    opacity: 1!important;
+    top: -20px!important;
+}
+
+
+
+.f-input-group > input#Message {
+    height: 100px!important;
+
+}
+
+
+
+/*///////////////// Social icons //////////////*/
+
+
+.social-icon{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.social-icon li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+
+.social-icon li a{
+    color: #58595b;
+    transition: all .2s ease-out;
+}
+
+
+
+
+.social-icon li a .f{
+    color: #3b5998;
+    transition: all .2s ease-out;
+}
+
+.social-icon li a .t{
+    color: #00aced;
+    transition: all .2s ease-out;
+
+}
+
+
+.social-icon li a .l{
+    color: #007bb6;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .i{
+    color: #e1306c;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .y{
+    color: #cd201f;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .g{
+    color: #dd4b39;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .p{
+    color: #bd081c;
+    transition: all .2s ease-out;
+
+}
+
+
+
+
+
+.social-icon li a .f:hover{
+    /*color: #565a5c;*/
+    transition: all .2s ease-out;
+}
+
+.social-icon li a .t:hover{
+    color: #00aced;
+    transition: all .2s ease-out;
+
+}
+
+
+.social-icon li a .l:hover{
+    color: #007bb6;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .i:hover{
+    color: #c13584;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .r:hover{
+    color: #f26522;
+    transition: all .2s ease-out;
+
+}
+
+.social-icon li a .g:hover{
+    color: #dd4b39;
+    transition: all .2s ease-out;
+
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Join us Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#join-us-section{
+    background-color: #f26531;
+    padding: 10% 0;
+}
+
+
+
+.input-filed {
+    width: 70%!important;
+    padding: 10px 18px;
+
+}
+
+.input-btn {
+    margin-left: -30px!important;
+    width: 50px!important;
+    border: 0!important;
+    -webkit-appearance: none!important;
+    font-size: 22px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Team Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#team-section{
+    background-color: #e0dac4;
+    padding: 6% 0;
+}
+
+
+#team-section .team-about{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Clients Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#clients-section{
+    background-color: #e0dac4;
+    padding: 6% 0;
+}
+
+
+/*////////CSS helpers classes*/
+
+
+
+
+/*////Margins//////*/
+
+.m-0{
+    margin: 0!important;
+}
+
+.m-5{
+    margin: 5px!important;
+}
+
+.m-20{
+    margin: 20px!important;
+}
+
+.m-t-0{
+    margin-top: 0!important;
+}
+
+.m-b-0{
+    margin-bottom: 0!important;
+}
+
+.m-10{
+    margin: 10px!important;
+}
+
+.m-t-5{
+    margin-top: 5px!important;
+}
+
+.m-t-10{
+    margin-top: 10px!important;
+}
+
+
+.m-t-20{
+    margin-top: 20px!important;
+}
+
+
+.m-b-5{
+    margin-bottom: 5px!important;
+}
+
+.m-b-10{
+    margin-bottom: 10px!important;
+}
+
+.m-b-20{
+    margin-bottom: 20px!important;
+}
+
+
+.m-b-40{
+    margin-bottom: 40px!important;
+}
+
+.m-t-40{
+    margin-top: 40px!important;
+}
+
+.m-t-60{
+    margin-top: 60px!important;
+}
+
+.m-r-10{
+    margin-right: 10px!important;
+}
+
+.m-r-20{
+    margin-right: 20px!important;
+}
+
+
+.m-r-40{
+    margin-right: 40px!important;
+}
+
+.m-30{
+    margin: 30px!important;
+}
+
+/*////Ends here///*/
+
+
+
+
+
+/*///Padding//*/
+
+.p-0{
+    padding: 0!important;
+}
+
+.p-5{
+    padding: 5px!important;
+}
+
+
+.p-10{
+    padding: 10px!important;
+}
+
+.p-20{
+    padding: 20px!important;
+}
+
+.p-30{
+    padding: 30px!important;
+}
+
+.p-t-40{
+    padding-top: 40px!important;
+}
+
+.p-b-40{
+    padding-bottom: 40px!important;
+}
+
+
+/*///ends here////*/
+
+
+
+
+/*////Fonts////*/
+
+
+.f-12{
+    font-size: 12px!important;
+}
+
+
+.f-16{
+    font-size: 16px!important;
+}
+
+.f-17{
+    font-size: 17px!important;
+}
+
+.f-18{
+    font-size: 18px!important;
+}
+
+.f-20{
+    font-size: 20px!important;
+}
+
+.f-22{
+    font-size: 22px!important;
+}
+
+
+.f-24{
+    font-size: 24px!important;
+}
+
+.f-29{
+    font-size: 29px!important;
+}
+
+
+.w-100{
+    font-weight: 100!important;
+}
+
+
+.w-500{
+    font-weight: 500!important;
+}
+
+.w-800{
+    font-weight: 800!important;
+}
+
+
+.f-8{
+    font-size: 5em!important;
+}
+
+
+
+.white-c{
+    color: #fff!important;
+}
+
+.black-c{
+    color: #000!important;
+}
+
+
+
+
+/*///ends here///*/
+
+
+
