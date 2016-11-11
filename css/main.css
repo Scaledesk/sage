@@ -14,6 +14,7 @@ html{
 body{
     font-size: 1.6em;
     line-height: 1.6em;
+    background-color: #e0dac4;
 
 }
 
@@ -67,15 +68,36 @@ body{
 
 #hero-section{
     height: 100vh;
-    background-color: #f26531;
-}
-
-
-#hero-section::after{
-    content: "";
-    background: url('../img/Untitled-2.svg');
+    /*background-color: #f26531;*/
+    /*position: relative;*/
+    /*z-index: -1;*/
+    background: url('../img/section-new.png') center no-repeat;
     width: 100%;
+    /*height: 600px;*/
+    background-size: cover;
+
 }
+
+
+/*#hero-section:after{*/
+    /*content: "";*/
+    /*border-color: #e0dac4;*/
+    /*border-left: 120px solid transparent;*/
+    /*border-top: 125px solid #e0dac4;*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*bottom: -65px;*/
+/*}*/
+
+
+/*#hero-section::after{*/
+    /*content: "";*/
+    /*background: url('../img/Untitled-2.svg');*/
+    /*width: 100%;*/
+/*}*/
 
 
 /*//////////////////////////////////////////////////////////////////////////////////
@@ -85,6 +107,9 @@ body{
 #contact-us-section{
     background-color: #e0dac4;
     padding: 5% 0;
+
+
+
 }
 
 .fancy-contact{
@@ -317,8 +342,12 @@ body{
 //////////////////////////////////////////////////////////////////////////////////*/
 
 #join-us-section{
-    background-color: #f26531;
+    /*background-color: #f26531;*/
     padding: 10% 0;
+    background: url('../img/section2.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 
@@ -365,6 +394,83 @@ body{
     background-color: #e0dac4;
     padding: 6% 0;
 }
+
+
+
+
+
+/*Owl carousel */
+
+#owl-demo .item{
+    display: block;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    padding: 5px 9px;
+}
+
+.owl-theme .owl-buttons i{
+    margin-top: 2px;
+}
+
+
+  .owl-theme .owl-controls .owl-buttons div {
+      position: absolute;
+  }
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: -45px;
+    top: 55px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+    right: -45px;
+    top: 55px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Our services  Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#our-services-section{
+    /*background-color: #f26531;*/
+    padding: 10% 0;
+    background: url('../img/section4.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+
+#our-services-section .team-about{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+                                Our Journey  Section
+//////////////////////////////////////////////////////////////////////////////////*/
+
+#our-journey{
+    background-color: #f26531;
+    padding: 5% 0;
+
+}
+
+
+
+
 
 
 /*////////CSS helpers classes*/
