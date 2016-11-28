@@ -674,5 +674,12 @@ body{
 
 /*///ends here///*/
 
+.neeraj{
+    transition: all .5s ease;
+}
 
 
+.neeraj:hover{
+    fill: tomato;
+    stroke: none;
+}
